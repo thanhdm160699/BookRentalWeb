@@ -1,0 +1,91 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: url('../Image/update.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*background-color: rgba(64, 115, 158, 0.6);*/
+}
+.box {
+	width: 350px;
+	border: 3px solid white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	/*background: rgba(0,0,0,.8);*/
+	background-color: rgba(64, 115, 158, 0.6);
+	border-radius: 5px;
+	text-align: left;
+	padding: 0px 20px 20px 20px;
+}
+.box label{
+	/*text-align: left;*/
+	color: white;
+	font-family: 'Patua One', cursive;
+}
+.box p{
+	font-family: 'Patua One', cursive;
+	font-weight: bold;
+	font-size: 25px;
+	color: #f1f1f1;
+	text-transform: uppercase;
+	text-align: center;
+	/*font-weight: 500;*/
+}
+.box input[type = "text"], .box input[type = "password"] {
+	border: 0;
+	outline: none;
+	background: none;
+	display: block;
+	text-align: left;
+	border: 2px solid white;
+	/*margin: 20px auto;*/
+	padding: 10px 5px;
+	width: 330px;
+	border-radius: 5px;
+	color: #f1f1f1;
+	transition: 0.5s;
+}
+.box input[type = "date"]{
+	border: 0;
+	outline: none;
+	background: none;
+	display: block;
+	text-align: left;
+	font-size: 16px;
+	border: 2px solid white;
+	/*margin: 20px auto;*/
+	padding: 8px 5px;
+	width: 150px;
+	border-radius: 5px;
+	color: #f1f1f1;
+}
+/*.box input[type = "text"]:hover, .box input[type = "password"]:hover {
+	width: 200px;
+	border: 2px solid #EB9532;
+}*/
+.box input[type = "submit"]{
+	border: 0;
+	font-family: 'Patua One', cursive;
+	font-weight: bold;
+	background: none;
+	display: block;
+	text-align: center;
+	color: #f1f1f1;
+	border: 2px solid white;
+	margin: 20px auto;
+	padding: 5px 5px;
+	border-radius: 24px;
+	width: 100px;
+	transition: 0.3s;
+}
+.box input[type = "submit"]:hover{
+		background-color: #176488;
+		border: 2px solid #176488;
+
+}
+.box input[type = "radio"] {
+	display: inline-table;
+}

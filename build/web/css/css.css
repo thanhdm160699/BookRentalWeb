@@ -1,0 +1,385 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#color-top {
+	width: 100%;
+	background-color: #176488;
+	height: 5px;
+} 
+/*=======================HEAD LEFT=======================*/
+.head .head-left-logo {
+	width: 30%;
+	/*background-color: pink;*/
+	height: 135px;
+	float: left;
+}
+.head .head-left-logo img{
+	margin: 10px 0px 10px 100px;
+}
+.head .head-left-logo h2{
+	/*background-color: green;*/
+	float: right;
+	/*font-family: 'Patua One', cursive;*/
+	/*font-family: 'Montserrat', sans-serif;*/
+	font-size: 30px;
+	color: #176488;
+	margin: -90px 0px 0px 10px;
+}/*=====div2=====*/
+.head-div2 {
+	float: right;
+	width: 70%;
+}
+/*======================HEAD CENTER============================*/
+.head-div2 .head-center-search {
+	width: 70%;
+	/*background-color: blue;*/
+	height: 135px;
+	float: left;
+
+}
+.head-div2 .head-center-search p{
+	margin-top: 50px;
+	margin-left: 100px;
+
+}
+.head-div2 .head-center-search p >input{
+	width: 420px;
+	height: 40px;
+	outline: none;
+	padding-left: 20px;
+	color: #176488;
+	font-weight: bold;
+	font-size: 15px;
+	border-radius: 20px 0px 0px 20px;
+	border-color: #176488;
+
+}
+.head-div2 .head-center-search p >button{
+	width: 40px;
+	height: 45px;
+	border-radius: 0px 20px 20px 0px;
+	border-color: #176488;
+	outline: none;
+	background-color: #176488;
+}
+/*=================HEAD RIGHT================*/
+.head-div2  .head-right-login {
+	width: 30%;
+	/*background-color: yellow;*/
+	height: 135px;
+	float: right;
+}
+.head .head-right-login ul{
+	margin: 20px 0px 10px 20px;
+}
+.head .head-right-login p{
+	padding: 55px;
+	font-family: 'Patua One', cursive;
+	font-size: 20px;
+	color: #176488;
+}
+.head .head-right-login ul li {
+	font-family: 'Patua One', cursive;
+	list-style: none;
+	font-size: 20px;
+	line-height: 35px;
+	color: #176488;
+}
+.head .head-right-login #login {
+	padding-top: 30px;
+
+}
+.head .head-right-login #login #dk{
+	margin: 10px;
+	transition: 0.3s;
+}
+.head .head-right-login #login #dk:hover{
+	background-color: #176488;
+	color: white;
+}
+.head .head-right-login #login #dk button{
+	padding: 5px 22px;
+	background: none;
+	border: 2px solid #176488;
+	border-radius: 5px;
+	color: #176488;
+	font-family: 'Patua One', cursive;
+	transition: 0.1s;
+}
+.head .head-right-login #login #dk button:hover{
+	background-color: #176488;
+	color: white;
+}
+.head .head-right-login #login #dn{
+	margin: 10px;
+}
+.head .head-right-login #login #dn button{
+	padding: 5px 30px;
+	background: none;
+	border: 2px solid #176488;
+	border-radius: 5px;
+	color: #176488;
+	font-family: 'Patua One', cursive;
+}
+/*====================MENU=========================*/
+.menu{
+	width: 100%;
+	height: 195px;
+	position: relative;
+	/*background-color: rgba(0,0,0,0.5);*/
+	/*float: left;*/
+	/*border-left-style: 5px;*/
+}
+.menu_ {
+	width:100%;
+	height: 195px;
+	/*padding-left: 130px;*/
+	/*background-color: #ccc;*/
+    -webkit-box-shadow: 0 8px 6px -6px black;
+       -moz-box-shadow: 0 8px 6px -6px black;
+            box-shadow: 0 8px 6px -6px black;
+	/*float: right;*/
+	/*text-align: center;*/
+/*	background-color: red; */
+}
+.menu_ ul {
+	padding-left: 177px;
+}
+.menu_ ul li {
+	
+	/*font-family: 'Montserrat', sans-serif;*/
+	font-family: 'Patua One', cursive;
+	display: inline-block;
+	list-style: none;
+	font-size: 25px;
+	color: #176488;
+	font-weight: bold;
+	/*padding-left: 130px;*/
+	margin-top: 13px;
+	text-transform: uppercase;
+	/*padding: 5px 10px;*/
+	margin: 10px;
+	transition: 0.3s;
+}
+.menu_ ul li:hover {
+	
+	color: #e67e22;
+}
+.menu_ ul li a{
+	text-decoration: none;
+	color: #176488;
+}
+.menu_ ul li a:hover{
+	color: #e67e22;
+}
+
+/*======================BANNER==================*/
+.banner {
+}
+.banner .search{
+	width: 100%;
+	height: 800px;
+	background-color: #E5E5E5;
+}
+.banner .search img{
+	background-size: cover;
+	border-radius: 20px;
+	margin-top: 60px;
+}
+.banner .banner-search h1{
+	/*background-color: #176488;*/
+	font-family: 'Patua One', cursive;
+	height: 580px;
+	border-radius: 20px;
+	background-color: rgba(64, 115, 158, 0.6);
+	font-size: 60px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 0px;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	position: relative;
+	color: white;
+	padding-top: 120px;
+	margin-top: -740px;
+}
+.banner .banner-search p{
+	margin-top: -540px;
+	margin-left: 350px;
+	/*background-color: pink;*/
+
+}
+.banner .banner-search #search{
+	position: relative;
+	margin-top: -520px;
+	margin-left: 430px;
+}
+.banner .banner-search #search input[type = "text"]{
+	width: 400px;
+	height: 50px;
+	border-radius: 20px 0px 0px 20px;
+	/*border: 2px solid #176488;*/
+	outline: none;
+}
+.banner .banner-search #search input[type = "submit"]{
+	width: 70px;
+	height: 54px;
+	border-radius: 0px 20px 20px 0px;
+	outline: none;
+	font-weight: bold;
+	/*border: 2px solid #176488;*/
+}
+.banner .banner-search #re{
+	position: relative;
+	margin-left: 580px;
+	margin-top: 20px;
+	color: white;
+	/*border: 2px solid white;*/
+	/*padding: 10px;*/
+	padding-right: 10px;
+	font-size: 20px;
+	font-family: 'Patua One', cursive;
+}
+.banner .banner-search #re a{
+	text-decoration: none;
+	color: white;
+}
+.banner .banner-search #re a:hover{
+	color: #e67e22;
+}
+.banner .banner-search #lo{
+	position: relative;
+	margin-left: 690px;
+	margin-top: -24px;
+	/*border: 2px solid white;*/
+
+	color: white;
+	font-size: 20px;
+	font-family: 'Patua One', cursive;
+}
+.banner .banner-search #lo a{
+	text-decoration: none;	
+	color: white;
+}
+.banner .banner-search #lo a:hover{
+	color: #e67e22;
+}
+.banner .banner-search p >input{
+	
+}
+.banner .banner-search p >button{
+
+}
+.banner .banner-search p >i{
+	height: 20px;
+	width: 20px;
+}
+/*====================================FOOTER=================================*/
+.footer{
+	margin-top: 520px;
+	-webkit-box-shadow: 0px -5px 7px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px -5px 7px -2px rgba(0,0,0,0.75);
+box-shadow: 0px -5px 7px -2px rgba(0,0,0,0.75);
+}
+.footer .footer-logo{
+	width: 25%;
+	height: 170px;
+	background-color: #3F5D88;
+	float: left;
+	-webkit-box-shadow: 0px -5px 7px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -5px 7px -2px rgba(0,0,0,0.75);
+	box-shadow: 0px -5px 7px -2px rgba(0,0,0,0.75);
+
+
+}
+.footer .footer-logo img{
+	padding-left: 150px;
+	padding-top: 10px;
+
+}
+
+.footer .footer-library{
+	width: 25%;
+	height: 170px;
+	background-color: #3F5D88;
+	float: left;
+	-webkit-box-shadow: 0px -5px 7px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -5px 7px -2px rgba(0,0,0,0.75);
+	box-shadow: 0px -5px 7px -2px rgba(0,0,0,0.75);
+}
+.footer .footer-library h3{
+	color: white;
+	font-size: 30px;
+	font-family: 'Patua One', cursive;
+	text-align: center;
+	font-weight: bold;
+	margin: 10px;
+}
+.footer .footer-library ul>li{
+	color: white;
+	line-height: 20px;
+	list-style: none;
+	font-family: 'Patua One', cursive;
+	padding-left: 100px;
+}
+
+.footer .footer-service{
+	width: 25%;
+	height: 170px;
+	background-color: #3F5D88;
+	float: left;
+	-webkit-box-shadow: 0px -5px 7px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -5px 7px -2px rgba(0,0,0,0.75);
+	box-shadow: 0px -5px 7px -2px rgba(0,0,0,0.75);
+}
+.footer .footer-service h3{
+	color: white;
+	font-size: 30px;
+	font-family: 'Patua One', cursive;
+	padding-left: 90px;
+	font-weight: bold;
+	margin: 10px;
+}
+.footer .footer-service ul >li{
+	color: white;
+	line-height: 20px;
+	list-style: none;
+	font-family: 'Patua One', cursive;
+	padding-left: 100px;
+}
+
+.footer .footer-visit{
+	width: 25%;
+	height: 170px;
+	background-color: #3F5D88;
+	float: right;
+	-webkit-box-shadow: 0px -5px 7px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -5px 7px -2px rgba(0,0,0,0.75);
+	box-shadow: 0px -5px 7px -2px rgba(0,0,0,0.75);
+}
+.footer .footer-visit h3{
+	color: white;
+	font-size: 30px;
+	font-family: 'Patua One', cursive;
+	padding-left: 40px;
+	font-weight: bold;
+	margin: 10px;
+}
+.footer .footer-visit ul >li{
+	color: white;
+	line-height: 20px;
+	list-style: none;
+	font-family: 'Patua One', cursive;
+	padding-left: 50px;
+}
+/*========================footer-bottom=============*/
+.footer-bottom{
+	width: 100%;
+	height: 50px;
+
+}
+.footer-bottom h3{
+	text-align: center;
+	color: white;
+	background-color: #344D71;
+}
